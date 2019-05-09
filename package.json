@@ -4,7 +4,8 @@
   "description": "A drop-in replacement for react-bootstrap Glyphicon component",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "storybook": "start-storybook"
   },
   "keywords": [
     "glyphicon",
@@ -16,6 +17,13 @@
   "license": "MIT",
   "dependencies": {
     "classnames": "^2.2.6",
-    "invariant": "^2.2.4"
+    "invariant": "^2.2.4",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.4",
+    "@storybook/react": "^5.0.11",
+    "babel-loader": "^8.0.5"
   }
 }
