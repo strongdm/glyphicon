@@ -1,15 +1,20 @@
 {
   "name": "@strongdm/glyphicon",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A drop-in replacement for the react-bootstrap Glyphicon component that works with React 16+",
-  "main": "index.js",
+  "main": "build/index.js",
   "homepage": "https://github.com/strongdm/glyphicon#readme",
   "bugs": {
     "url": "https://github.com/strongdm/glyphicon/issues"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/strongdm/glyphicon.git"
+  },
   "scripts": {
     "start": "start-storybook",
-    "storybook": "start-storybook"
+    "storybook": "start-storybook",
+    "build": "webpack"
   },
   "keywords": [
     "glyphicon",
@@ -28,7 +33,14 @@
   },
   "devDependencies": {
     "@babel/core": "^7.4.4",
+    "@babel/preset-env": "^7.4.4",
+    "@babel/preset-react": "^7.0.0",
     "@storybook/react": "^5.0.11",
-    "babel-loader": "^8.0.5"
+    "babel-loader": "^8.0.5",
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "file-loader": "^3.0.1",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.31.0",
+    "webpack-cli": "^3.3.2"
   }
 }
