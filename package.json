@@ -1,0 +1,21 @@
+{
+  "name": "glyphicon",
+  "version": "0.0.1",
+  "description": "A drop-in replacement for react-bootstrap Glyphicon component",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "glyphicon",
+    "react",
+    "bootstrap",
+    "icon"
+  ],
+  "author": "Britt Crawford <britt.v.crawford@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "classnames": "^2.2.6",
+    "invariant": "^2.2.4"
+  }
+}
