@@ -27,3 +27,8 @@ export default function ComponentWithAnIcon () {
 ```
 
 This component uses the react-bootstrap 0.3+ conventions of `bsStyle` and `bsSize`. We will be updating it to comply with react-bootstrap 1.0.0 shortly.
+
+## Thanks to:
+
+* [React Bootstrap](https://react-bootstrap.github.io) contributors for creating an excellent React UI toolkit.
+* [DarkSeal](https://github.com/Darkseal/bootstrap4-glyphicons) for porting the glyphicons CSS to Boostrap 4.
