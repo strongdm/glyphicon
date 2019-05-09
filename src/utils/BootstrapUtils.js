@@ -1,5 +1,15 @@
 import invariant from 'invariant'
-import { SIZE_MAP } from './StyleConfig'
+
+const SIZE_MAP = {
+  large: 'lg',
+  medium: 'md',
+  small: 'sm',
+  xsmall: 'xs',
+  lg: 'lg',
+  md: 'md',
+  sm: 'sm',
+  xs: 'xs'
+}
 
 function curry (fn) {
   return (...args) => {

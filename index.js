@@ -1,6 +1,7 @@
 import classNames from 'classnames'
 import React from 'react'
-import { bsClass, getClassSet, prefix, splitBsProps } from './src/utils/bootstrapUtils'
+import { bsClass, getClassSet, prefix, splitBsProps } from './src/utils/BootstrapUtils'
+import './src/css/bootstrap-glyphicons.css'
 
 class Glyphicon extends React.Component {
   render () {
