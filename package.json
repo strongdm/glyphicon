@@ -1,6 +1,6 @@
 {
   "name": "@strongdm/glyphicon",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A drop-in replacement for the react-bootstrap Glyphicon component that works with React 16+",
   "main": "build/index.js",
   "homepage": "https://github.com/strongdm/glyphicon#readme",
