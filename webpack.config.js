@@ -28,17 +28,8 @@ module.exports = {
         ]
       },
       {
-        test: /\.(woff(2)?|ttf|eot|svg)(\?v=\d+\.\d+\.\d+)?$/,
-        use: [
-          'file-loader'
-        ]
-        // use: [{
-        //   loader: 'file-loader',
-        //   options: {
-        //     name: '[name].[ext]',
-        //     outputPath: 'fonts/'
-        //   }
-        // }]
+        test: /\.(jpe?g|png|ttf|eot|svg|woff(2)?)(\?[a-z0-9=&.]+)?$/,
+        use: 'base64-inline-loader?limit=1000&name=[name].[ext]'
       }
     ]
   },

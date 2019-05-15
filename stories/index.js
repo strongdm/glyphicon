@@ -1,6 +1,6 @@
 import React from 'react'
 import { storiesOf } from '@storybook/react'
-import Glyphicon from '../index'
+import Glyphicon from '../src/index'
 
 storiesOf('Glyphicon', module)
   .add('remove sign', () => (
