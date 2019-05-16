@@ -807,3 +807,7 @@
 .glyphicon-menu-up:before {
   content: "\e260";
 }
+.form-group.has-feedback .form-control-feedback.glyphicon{
+  position: absolute;
+  line-height: 45px;
+}
