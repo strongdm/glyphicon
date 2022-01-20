@@ -28,8 +28,8 @@
   "dependencies": {
     "classnames": "^2.2.6",
     "invariant": "^2.2.4",
-    "react": "^16.8.6",
-    "react-dom": "^16.8.6"
+    "react": ">=16.8.6",
+    "react-dom": ">=16.8.6"
   },
   "devDependencies": {
     "@babel/core": "^7.4.4",
